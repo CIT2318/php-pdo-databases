@@ -31,14 +31,6 @@ Using the lecture slides/example as a guide build a simple ‘browseable’ web 
 
 * Create a PHP page *results.php*. To start with simply get it to display the search term the user has entered
 * Look at the lecture slides and example for advice on how you can use this search term to query a database and display films with titles that match the search term
-* If you can get this to work, try and build a more sophisticated search facility e.g, You could use a select menu like the following that would allow users to search by film title or by year. You will need to make some changes to *results.php* as well to allow for the more flexible search.
-
-```html
-<select id="field" name="field">
-    <option value="title">Film Title</option>
-    <option value="year">Film Year</option>
-</select>
-```
 
 ## There's more
 * We haven't looked at writing PHP for key actions such as create, update or delete. We will look at these in week 10.
