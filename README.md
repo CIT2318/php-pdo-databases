@@ -14,7 +14,7 @@ Modify the connection settings so that you use the values for your MySQL databas
 Add a foreach loop in the body of the document that will display the title of each of the films.
 
 ## Creating a 'browseable' list
-Using the lecture slides/example as a guide build a simple ‘browseable’ web application
+Using the lecture slides/examples as a guide build a simple ‘browseable’ web application
   * Modify your list.php page so that each film is displayed as a hyperlink that links to a page named *details.php* (you will need to create a *details.php* page).
   * If you can get this to work, try and pass the specific film's id in the query string.
   * In *details.php* connect to your database and run a query that will display the full details for the selected film. 
