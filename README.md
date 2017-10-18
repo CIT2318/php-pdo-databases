@@ -34,7 +34,6 @@ Using the lecture slides/example as a guide build a simple ‘browseable’ web 
 * If you can get this to work, try and build a more sophisticated search facility e.g, You could use a select menu like the following that would allow users to search by film title or by year. You will need to make some changes to *results.php* as well to allow for the more flexible search.
 
 ```html
-<label for="field"></label>
 <select id="field" name="field">
     <option value="title">Film Title</option>
     <option value="year">Film Year</option>
