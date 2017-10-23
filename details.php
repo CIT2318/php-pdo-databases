@@ -25,7 +25,7 @@ $conn=NULL;
 </head>
 <body>
 <?php
-//simple validation to see if we found a student
+//simple validation to see if we found a film
 if($film){
 	echo "<h1>".$film['title']."</h1>";
 	echo "<p>Year: ".$film['year']."</p>";
