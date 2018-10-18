@@ -1,7 +1,7 @@
 # PHP, PDO and Databases
 
 ## Setting up
-This practical is about using PHP to work with a MySQL database. We will work with the films tables we created in the practical last week. If you don't have these handy you can import the *films.sql* file. 
+This practical is about using PHP to work with a MySQL database. We will work with the films tables we created in the practical last week. If you don't have these handy you can import the *films.sql* file from https://github.com/CIT2318/intro-to-mysql-sql/blob/master/films.sql. 
 
 ## Listing all items from the database
 In a text editor open list.php.
@@ -14,7 +14,7 @@ Modify the connection settings so that you use the values for your MySQL databas
 Add a foreach loop in the body of the document that will display the title of each of the films.
 
 ## Creating a 'browseable' list
-Using the lecture slides/examples as a guide build a simple ‘browseable’ web application
+Using the lecture slides/examples as a guide build a simple 'browseable' web application
   * Modify your list.php page so that each film is displayed as a hyperlink that links to a page named *details.php* (you will need to create a *details.php* page).
   * If you can get this to work, try and pass the specific film's id in the query string.
   * In *details.php* connect to your database and run a query that will display the full details for the selected film. 
@@ -29,10 +29,11 @@ Using the lecture slides/examples as a guide build a simple ‘browseable’ web
 </form>
 ```
 
-* Create a PHP page *results.php*. To start with simply get it to display the search term the user has entered
-* Look at the lecture slides and example for advice on how you can use this search term to query a database and display films with titles that match the search term
+* Create a PHP page *results.php*. 
+* Add PHP code so that when the user enters a search term and clicks 'Search' results.php displays the search term they have entered.  
+* Look at the lecture slides and example for advice on how you can use this search term to query a database and display films with titles that match the search term.
 
 ## There's more
-* We haven't looked at writing PHP for key actions such as create, update or delete. We will look at these in week 10.
+* We haven't looked at writing PHP for key actions such as create, update or delete. We will look at these in coming weeks.
 * Using the above examples as a basis you are now in a position to attempt the assignment. See the Assignment Worksheet under Assignments on Unilearn for a suggested workflow.  
 
