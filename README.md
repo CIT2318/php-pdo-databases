@@ -14,7 +14,7 @@ Modify the connection settings so that you use the values for your MySQL databas
 Add a foreach loop in the body of the document that will display the title of each of the films.
 
 ## Creating a 'browseable' list
-Using the lecture slides/examples as a guide build a simple 'browseable' web application
+Using the lecture examples as a guide build a simple 'browseable' web application
   * Modify your list.php page so that each film is displayed as a hyperlink that links to a page named *details.php* (you will need to create a *details.php* page).
   * If you can get this to work, try and pass the specific film's id in the query string.
   * In *details.php* connect to your database and run a query that will display the full details for the selected film. 
@@ -31,9 +31,9 @@ Using the lecture slides/examples as a guide build a simple 'browseable' web app
 
 * Create a PHP page *results.php*. 
 * Add PHP code so that when the user enters a search term and clicks 'Search' results.php displays the search term they have entered.  
-* Look at the lecture slides and example for advice on how you can use this search term to query a database and display films with titles that match the search term.
+* Look at the lecture examples for advice on how you can use this search term to query a database and display films with titles that match the search term.
 
 ## There's more
-* We haven't looked at writing PHP for key actions such as create, update or delete. We will look at these in coming weeks.
-* Using the above examples as a basis you are now in a position to attempt the assignment. See the Assignment Worksheet under Assignments on Unilearn for a suggested workflow.  
+* We haven't looked at writing PHP for key actions such as create, update or delete. These are also demonstrated in the lecture examples. You won't need these for Assignment 1, but may need them for Assignment 3.
+* Using the above examples as a basis you are now in a position to attempt the assignment. See the Assignment Worksheet under Assignments on Brightspace for a suggested workflow.  
 
